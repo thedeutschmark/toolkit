@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+packages/*/node_modules/
+
+# Next.js
+.next/
+out/
+
+# Build artifacts
+*.tsbuildinfo
+
+# Environment — never commit these
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db

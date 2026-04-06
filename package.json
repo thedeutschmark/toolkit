@@ -1,0 +1,30 @@
+{
+  "name": "deutschmark-toolkit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "postinstall": "node scripts/patch-lightningcss.mjs"
+  },
+  "dependencies": {
+    "@deutschmark/toolkit-client": "file:./packages/toolkit-client",
+    "@deutschmark/widget-config": "file:./packages/widget-config",
+    "gifenc": "^1.0.3",
+    "lucide-react": "0.575.0",
+    "next": "16.1.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "25.3.2",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "postcss": "8.5.6",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3"
+  }
+}
